@@ -1,0 +1,412 @@
+#Scenegame_page, #game_page {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:960px;
+	height:540px;
+	background-color :aqua;
+	background: url('../../images/smartTV_background_new.png');	
+	background-size: contain;
+}
+
+
+.GetCard{
+	height:100%;
+	float: left;
+	
+}
+.GetCard img{
+	background-size: contain;
+	height: 100%;
+}
+
+.GetCardPi{
+	height: 100%;
+	float: left;
+	
+}
+.GetCardPi img{
+	background-size: contain;
+	height: 100%;
+}
+
+
+#top {
+	height: 65%;
+	width: 100%;
+}
+
+	#my_state_view {
+		height: 100%; 
+		width : 20%;
+		float: left;
+	}
+		#my_state_view_money {
+			height: 17%;
+			width: 100%;
+		}
+		
+		#my_state_view_current_state {
+			height: 83%;
+			width: 100%;
+		}
+			#my_state_view_current_state_earn_money {
+				height: 35%;
+				width: 100%;
+			}
+			#my_state_view_current_state_score {
+				height: 19%;
+				width: 100%;
+			}
+			#my_state_view_current_state_information {
+				height: 11%;
+				width: 100%;
+			}
+					#my_state_view_current_state_information_go{
+						height: 100%;
+						width: 30%;
+						float: left;
+					}
+					#my_state_view_current_state_information_shake{
+						height: 100%;
+						width: 40%;
+						float: left;
+					}
+					#my_state_view_current_state_information_bbuk{
+						height: 100%;
+						width: 30%;
+						float: left;
+					}
+					
+			#my_state_view_current_state_rest_card_wrapper {
+				height: 35%;
+				width: 100%;
+			}
+				#my_state_view_current_state_rest_card {
+					height: 75%;
+					width: 70%;
+					padding-top: 10%;
+					padding-left: 15%;
+					padding-right: 15%;
+					padding-bottom: 15%;
+				}
+			
+			
+	#can_get_card_view {
+		height: 100%; 
+		width : 60%;
+		float: left;
+	}	
+		#can_get_card_view_1st_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_2nd_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;		
+		}
+		#can_get_card_view_3rd_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_4th_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_5_AND_6_positon{
+			height: 50%;
+			width: 30%;
+			float: left;
+		}
+			#can_get_card_view_5th_positon {
+				height: 50%;
+				width: 100%;
+				float: left;
+				position: relative;
+			}
+			#can_get_card_view_6th_positon {
+				height: 50%;
+				width: 100%;
+				float: left;
+				position: relative;
+			}
+		#can_get_card_view_7_AND_8_positon{
+			height: 50%;
+			width: 30%;
+			float: left;
+		}
+			#can_get_card_view_7th_positon {
+				height: 50%;
+				width: 100%;
+				float: left;
+				position: relative;
+			}
+			#can_get_card_view_8th_positon {
+				height: 50%;
+				width: 100%;
+				float: left;
+				position: relative;
+			}
+		#can_get_card_view_9th_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_10th_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_11th_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_12th_positon {
+			height: 25%;
+			width: 25%;
+			float: left;
+			position: relative;
+		}
+		#can_get_card_view_center_positon{
+			height: 50%;
+			width: 40%;
+			float: left;
+			position: relative;
+		}
+		
+		
+	
+	#your_state_view {
+		height: 100%; 
+		width : 20%;
+		float: left;
+	}
+		#your_state_view_finish {
+			height: 17%;
+			width: 100%;
+		}
+		
+		#your_state_view_current_state {
+			height: 83%;
+			width: 100%;
+		}
+			#your_state_view_current_state_earn_money {
+				height: 35%;
+				width: 100%;
+			}
+			#your_state_view_current_state_score {
+				height: 19%;
+				width: 100%;
+			}
+			#your_state_view_current_state_information {
+				height: 11%;
+				width: 100%;
+			}
+					#your_state_view_current_state_information_go{
+						height: 100%;
+						width: 30%;
+						float: left;
+					}
+					#your_state_view_current_state_information_shake{
+						height: 100%;
+						width: 40%;
+						float: left;
+					}
+					#your_state_view_current_state_information_bbuk{
+						height: 100%;
+						width: 30%;
+						float: left;
+					}
+					
+			#your_state_view_current_state_rest_card_wrapper {
+				height: 35%;
+				width: 100%;
+			}
+				#your_state_view_current_state_rest_card {
+					height: 75%;
+					width: 70%;
+					padding-top: 10%;
+					padding-left: 15%;
+					padding-right: 15%;
+					padding-bottom: 15%;
+				}
+
+#bottom {
+	height: 35%;
+	width: 100%;
+}
+	#my_get_card_view {
+		height: 100%;
+		width: 40%;
+		float: left;
+	}
+		#my_get_card_view_wrapper{
+			height: 67%;
+			width: 96.5%;
+			padding-top: 3%;
+			padding-left: 3%;
+			padding-right: 0.5%;
+			float: left;
+		}
+			#my_get_card_view_ggwang_wrapper{
+				height: 100%;
+				width: 25%;
+				float: left;
+			}
+				#my_get_card_view_ggwang{
+					height: 50%;
+					width: 80%;
+					float: left;
+					top: 50%;
+					left: 20%;
+					position: relative;
+				}
+			#my_get_card_view_tengg_AND_ddi_wrapper{
+				height: 100%;
+				width: 43%;
+				float: left;
+			}
+				#my_get_card_view_tengg_AND_ddi{
+					height: 100%;
+					width: 90%;
+					float: left;
+					padding-left: 10%;
+				}
+					#my_get_card_view_tengg{
+					height: 50%;
+					width: 100%;
+					position: relative;
+					}
+					#my_get_card_view_ddi{
+					height: 50%;
+					width: 100%;
+					position: relative;
+					}
+			#my_get_card_view_pi_wrapper{
+				height: 100%;
+				width: 32%;
+				float: left;
+				
+			}
+				#my_get_card_view_pi{
+					height: 70%;
+					width: 90%;
+					float: left;
+					padding-right: 10%;
+					position: relative;
+				}
+	#misson {
+		height: 100%;
+		width: 20%;
+		float: left;
+	}
+	#your_get_card_view {
+		height: 100%;
+		width: 40%;
+		float: left;
+	}
+		#your_get_card_view_wrapper{
+			height: 67%;
+			width: 96.5%;
+			padding-top: 3%;
+			padding-left: 3%;
+			padding-right: 0.5%;
+			float: left;
+		}
+			#your_get_card_view_ggwang_wrapper{
+				height: 50%;
+				width: 80%;
+				float: left;
+				top: 50%;
+				left: 20%;
+				position: relative;
+			}
+				#your_get_card_view_ggwang{
+					height: 50%;
+					width: 80%;
+					float: left;
+					padding-top: 70%;
+					padding-left: 20%;
+					position: relative;
+				}
+			#your_get_card_view_tengg_AND_ddi_wrapper{
+				height: 100%;
+				width: 43%;
+				float: left;
+			}
+				#your_get_card_view_tengg_AND_ddi{
+					height: 100%;
+					width: 90%;
+					float: left;
+					padding-left: 10%;
+				}
+					#your_get_card_view_tengg{
+					height: 50%;
+					width: 100%;
+					position: relative;
+					}
+					#your_get_card_view_ddi{
+					height: 50%;
+					width: 100%;
+					position: relative;
+					}
+			#your_get_card_view_pi_wrapper{
+				height: 100%;
+				width: 32%;
+				float: left;
+			}
+				#your_get_card_view_pi{
+					height: 70%;
+					width: 90%;
+					float: left;
+					padding-right: 10%;
+					position: relative;
+				}
+
+.get_card_view_pi_container{
+	height: 25%;
+	width: 100%;
+}
+.get_card_view_pi_container_base{
+	height: 25%;
+	width: 100%;
+}
+.div-player1-card {
+	width: 15%;
+	float: left;
+	margin: 3px;
+}
+.div-player1-card img {
+	background-size: contain;
+	width: 100%;
+}
+.div-player2-card {
+	width: 15%;
+	float: left;
+	padding: 3px;
+}
+.div-player2-card img {
+	background-size: contain;
+	width: 100%;
+}
+
+.img-card {
+	width : 100%;
+	height : auto;
+}
+
+
+
+

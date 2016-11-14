@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns:ns="http://www.w3.org/ns/widgets" xmlns:dtv="http://www.samsungdforum.com/dtv/widgets" viewmodes="fullscreen">  
+	<!-- Davinci -->  
+	<content src="designer.html"/>  
+	<device-width src="960"/>  
+	<device-height src="540"/>  
+	<!-- DTV -->  
+	<ThumbIcon>icon/default_106.png</ThumbIcon>  
+	<BigThumbIcon>icon/default_115.png</BigThumbIcon>  
+	<ListIcon>icon/default_85.png</ListIcon>  
+	<BigListIcon>icon/default_95.png</BigListIcon>  
+	<apptype>11</apptype>  
+	<category/>  
+	<autoUpdate>y</autoUpdate>  
+	<cpname>Samsung</cpname>  
+	<cpauthjs/>  
+	<login>n</login>  
+	<ver>1.000</ver>  
+	<mgrver>2.000</mgrver>  
+	<fullwidget>y</fullwidget>  
+	<srcctl>y</srcctl>  
+	<ticker>n</ticker>  
+	<childlock>n</childlock>  
+	<audiomute>y</audiomute>  
+	<videomute>y</videomute>  
+	<dcont>y</dcont>  
+	<movie>y</movie>  
+	<type>user</type>  
+	<widgetname>GoStopDTV</widgetname>  
+	<description>Samsung Apps Framework 2.0 Sample application</description>  
+	<width>960</width>  
+	<height>540</height>  
+	<author> 
+		<name itemtype="string">Samsung Electronics Co. Ltd.</name>  
+		<organization itemtype="string">Samsung Electronics Co. Ltd.</organization>  
+		<email itemtype="string"/>  
+		<link itemtype="string">http://www.sec.co.kr/</link> 
+	</author>  
+	<mouse itemtype="boolean">y</mouse>  
+	<contents itemtype="string"/> 
+</widget>

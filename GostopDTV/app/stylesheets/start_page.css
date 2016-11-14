@@ -1,0 +1,16 @@
+#Scenestart_page, #start_page {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:960px;
+    height:540px;
+    background-color:#ffffff;
+}
+
+.your_get_card_view_wrapper{
+	margin-left:-20px;
+}
+
+.my_get_card_view_wrapper{
+	margin-left:-20px;
+}

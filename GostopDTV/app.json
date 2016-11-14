@@ -1,0 +1,1 @@
+{"files":["animations.css","main.css","enhanced\/sec_540.css","enhanced\/sec.js","js/Card.js", "js/CardSet.js", "js/Player.js", "js/GameManager.js", "js/nserviceModule.js","js/CardlistAdapter.js","js/EatCardListAdapter.js","js/CardCanBeAteAdapter.js","main.js"],"scenes":["start_page","game_page"],"theme":"base","modules":["ime"]}

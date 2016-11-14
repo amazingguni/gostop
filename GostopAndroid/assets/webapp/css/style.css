@@ -1,0 +1,58 @@
+body {
+	font-family:'Nanum';
+}
+@font-face{
+	font-family: 'Nanum';
+	src:url('../font/NanumGothic.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'NanumBold';
+	src:url('../font/NanumGothicBold.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'NanumExtraBold';
+	src:url('../font/NanumGothicExtraBold.ttf') format('truetype');
+}
+
+.ui-content.ui-scrollview-clip > div.ui-scrollview-view{
+	height: 100%;
+	padding:0px;
+}
+
+.ui-content.ui-scrollview-clip{
+	height: 100%;
+	padding:0px;
+}
+
+.ui-mobile .ui-page-active{
+	overflow:hidden;
+}
+
+.ui-scrollbar-visible{
+	opacity: 0;
+}
+
+.gostop-button {
+	background: url('../images/button_bk.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	font-family: 'NanumExtraBold';
+	font-size: 13px;
+	
+}
+
+.gostop-button:active{
+	background:url('../images/button_bk_active.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+.gostop-page-container{
+	position: relative;
+	height:100%;
+	margin:auto auto;
+	overflow: hidden;
+}

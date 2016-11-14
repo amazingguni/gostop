@@ -1,0 +1,179 @@
+#content_main{
+	width:100%;
+	height:100%;
+		
+}
+
+#content_main .gostop-page-container{
+	background-image:url(../images/page_main/page_main_background.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}
+
+
+
+#main-left-container{
+	float:left;
+	height:100%;
+	width:70.35%;
+	
+}
+
+
+#main-left-container #main-left-top-container{
+	width:100%;
+	height:28.5%;
+	
+}
+
+#main-left-container #main-left-top-container #main-left-top-title{
+	float:left;
+	height:100%;
+	width:70%;
+}
+
+#main-left-container #main-left-top-container #main-left-top-score-container{
+	float:left;
+	height:100%;
+	width:30%;
+	position:relative;
+}
+
+#main-left-container #main-left-top-container #main-left-top-score-container #label-player-score{
+	position:absolute;
+	left:30%;
+	top:27%;
+	text-align:right;
+	font-family: 'NanumExtraBold';
+	font-size: 1.5em;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+}
+
+#main-left-container #main-left-bottom-container{
+	width:100%;
+	height:71.5%;
+	
+}
+
+#main-left-container #main-left-bottom-container #main-left-bottom-card-container{
+	background:rgba(0,0,0,.5);
+	margin-left:10%;
+	margin-top:5.5%;
+	width:83.5%;
+	height:79%;
+	
+}
+
+.gostopcard-container{
+	width:20%;
+	height:50%;
+	float:left;
+	text-align: center;
+	-webkit-transition: all .5s ease-in-out, opacity .5s ease-in-out;
+	
+}
+
+.gostopcard{
+	display: block;
+
+	height:98%;
+	margin:auto auto;
+	vertical-align:middle;
+	
+	
+}
+
+.gostopcard-container.remove{
+	-webkit-transform: translate(0%,-300%);
+	opacity: 0;
+}
+
+.gostopcard.remove{
+	
+}
+
+#main-right-container {
+	float:left;
+	height:100%;
+	width:29.65%;
+	
+}
+
+#main-right-container #main-right-money-container{
+	width:100%;
+	height:29%;
+	
+}
+
+#main-right-money-wrapper{
+	text-align:right;
+	width:65%;
+	height:65%;
+	padding-left:8%;
+	padding-top:15%;
+	
+}
+
+#label-player-name{
+	display:block;
+	width:100%;
+	color:white;
+	font-family: 'NanumExtraBold';
+	font-size: 1em;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+}
+
+#label-player-money{
+	color:rgba(255,255,255,0.9);
+	margin-top:0.4em;
+	margin-bottom:0.4em;
+	display:block;
+	width:100%;
+	font-family: 'NanumBold';
+	font-size: 0.8em;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+}
+
+#label-player-profit{
+	color:yellow;
+	display:block;
+	width:100%;
+	font-family: 'Nanum';
+	font-size: 0.8em;
+	text-shadow: 1px 1px rgba(0,0,0,.5);
+}
+
+
+#main-right-container #main-right-mission-container{
+	
+	width:100%;
+	height:33%;
+	
+}
+
+#main-right-container #main-right-button-container{
+	width:100%;
+	height:38%;
+	
+}
+
+#btn_main_option{
+	width: 6.9em;
+	height:2.482317073170732em;
+	
+	margin-left:0.6em;
+	font-size:1.1em;
+	margin-top:0.5em;
+}
+#btn_main_game_exit{
+	width: 6.9em;
+	height:2.482317073170732em;
+	margin-left:0.6em;
+	font-size:1.1em;
+	margin-top:1em;
+}
+
+
+

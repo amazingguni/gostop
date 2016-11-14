@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:sec="http://samsungapps.com/ns/widgets" version="2.0 Beta" viewmodes="fullscreen" id="http://yourdomain/GostopWeb" width="320" height="480">  
+	<icon src="icon.png"/>  
+	<content src="index.html"/>  
+	<name>GostopWeb</name>  
+	<device-width src="338"/>  
+	<device-height src="480"/> 
+</widget>

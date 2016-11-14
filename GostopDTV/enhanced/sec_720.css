@@ -1,0 +1,258 @@
+/* secButton */
+.sec-ui-button {
+    cursor:pointer;
+    display:table;
+    table-layout:fixed;
+    color:#EEE;
+    font-size:24px;
+}
+
+.sec-ui-button div {
+    display:table-cell;
+    height:100%;
+    
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+.sec-ui-button > .sec-ui-button-l {
+    width:13px;
+    background:url(images/sec_btn_normal_left.png) no-repeat;
+    background-size:100% 100%;
+}
+.sec-ui-button > .sec-ui-button-l.focus {
+   background:url(images/sec_btn_highlighted_left.png) no-repeat;
+   background-size:100% 100%;
+}
+
+.sec-ui-button > .sec-ui-button-c {
+    text-align:center;
+    vertical-align:middle;
+    font-size:inherit;
+    color:inherit;
+    text-shadow:#252525 0 2px 0;
+    background:url(images/sec_btn_normal_center.png) repeat-x;
+    background-size:auto 100%;
+    
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.sec-ui-button > .sec-ui-button-c.focus {
+    background:url(images/sec_btn_highlighted_center.png) repeat-x;
+    background-size:auto 100%;
+}
+
+.sec-ui-button > .sec-ui-button-r {
+    width:13px;
+    background:url(images/sec_btn_normal_right.png) no-repeat;
+    background-size:100% 100%;
+}
+.sec-ui-button > .sec-ui-button-r.focus {
+   background:url(images/sec_btn_highlighted_right.png) no-repeat;
+   background-size:100% 100%;
+}
+
+
+/* secLoading */
+.sec-ui-loading {
+}
+
+@-webkit-keyframes loadingCircle {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.sec-ui-loading > .sec-ui-loading-circle {
+    background:url(images/sec_loading.png) no-repeat;
+    background-size:90px 90px;
+    width:90px;
+    height:90px;
+    
+    -webkit-animation-name:loadingCircle;
+    -webkit-animation-duration:2000ms;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-iteration-count:infinite;
+}
+.sec-ui-loading > .sec-ui-loading-circle.designer {
+    -webkit-animation-name:none;
+}
+
+
+/* secPopup */
+.sec_dim {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:#000000;
+    opacity:0.75;
+    z-index:1;
+}
+
+.sec-ui-popup {
+    position:fixed;
+    z-index:10;
+    width:600px;
+    height:100%;
+    border-width:16px;
+    -webkit-border-image:url(images/sec_popup_bg_01_720.png) 16 16 stretch stretch;
+    font-family:'Samsung SVD_Medium_US', Arial;
+    
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+.sec-ui-popup.title {
+    border-width:56px 16px 16px 16px;
+    -webkit-border-image:url(images/sec_popup_bg_03_720.png) 56 16 16 16 stretch stretch;
+}
+.sec-ui-popup.keyhelp {
+    border-width:16px 16px 56px 16px;
+    -webkit-border-image:url(images/sec_popup_bg_04_720.png) 16 16 56 16 stretch stretch;
+}
+.sec-ui-popup.title.keyhelp {
+    border-width:56px 16px;
+    -webkit-border-image:url(images/sec_popup_bg_02_720.png) 56 16 stretch stretch;
+}
+
+.sec-ui-popup > .title {
+    display:none;
+    margin-top:-38px;
+    padding:0px 40px 4px;
+    color: #3FDDFF;
+    word-break:break-all;
+    text-align:center;
+    font-size:26px;
+}
+.sec-ui-popup.title > .title {
+    display:block;
+}
+
+.sec-ui-popup > .text {
+    position:relative;
+    padding:12px 40px;
+    color:white;
+    word-break:break-all;
+    text-align:center;
+    font-size:24px;
+}
+
+.sec-ui-popup > .buttons {
+    text-align:center;
+    padding:0px 30px;
+}
+
+.sec-ui-popup > .buttons > div {
+    display:inline-block;
+	margin:0px 4px;
+	width:130px;
+	height:52px;
+	text-align:center;
+	line-height:48px;
+	font-size:24px;
+	text-shadow:#252525 0 2px 0;
+	cursor:pointer;
+	padding: 0px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sec-ui-popup > .buttons > .button {
+    background:url(images/sec_popup_button_nor.png) no-repeat;
+    background-size:150px 50px;
+    color:#eee;
+}
+.sec-ui-popup > .buttons > .button.focus {
+    background:url(images/sec_popup_button_sel.png) no-repeat;
+    background-size:150px 50px;
+    color:#fff;
+}
+
+.sec-ui-popup > .keyhelp {
+    display:none;
+    background:none;
+    position: absolute;
+    bottom: -46px;
+}
+.sec-ui-popup.keyhelp > .keyhelp {
+    display:block;
+}
+
+
+/* secProgressBar */
+.sec-ui-progressbar {
+	height:17px;
+    border:1px solid #b2b2b2;
+}
+
+.sec-ui-progressbar > .bg {
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+    z-index:0;
+    background:url(images/sec_progressbar_bar_bg.png) repeat-x;
+    background-size:100% 100%;
+}
+.sec-ui-progressbar > .bg.none {
+    background:none;
+}
+
+@-webkit-keyframes progress {
+    from {background-position-x:15px;}
+    to  {background-position-x:0px;}
+}
+
+.sec-ui-progressbar > .bar {
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+    z-index:2;
+    background-size:15px 100% !important;
+    
+    -webkit-animation-name:progress;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+.sec-ui-progressbar > .bar.designer {
+    -webkit-animation-name:none;
+}
+
+.sec-ui-progressbar > .bar.progress {
+    background:url(images/sec_progressbar_progress.png) repeat-x;
+}
+.sec-ui-progressbar > .bar.loading {
+    background:url(images/sec_progressbar_loading.png) repeat-x;
+}
+
+
+.sf-ui-arrowbutton .button.sec .center {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    width: auto;
+}
+.sf-ui-arrowbutton .button.sec .right {
+    position: absolute;
+    right: 0px;
+    width: 16px;
+}
+.sf-ui-arrowbutton .arrows.sec .arrowup {
+    position: relative;
+}
+.sf-ui-arrowbutton .arrows.sec .arrowdown {
+    position: relative;
+    top: 52px;
+}
+.sf-ui-arrowbutton .arrows.sec .arrowright {
+    left: auto;
+    right: -6px;
+}
